@@ -1,0 +1,266 @@
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+p {
+  margin-top: 0px;
+}
+
+li {
+  font-family: serif;
+  font-size: 12px;
+}
+.Collapsible {
+  background-color: #43a7c8 !important;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+.Collapsible__trigger {
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  padding: 7px;
+  cursor: pointer;
+}
+.Collapsible__contentInner {
+  background-color: rgb(235, 235, 240);
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+}
+input {
+  width: 5%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* #pulldown select { 
+min-width:300px;
+width: 300px;
+}
+
+#input  { 
+min-width:300px;
+height:11px; 
+}
+#input2  { 
+min-width:296px;
+height:11px; 
+} */
+
+html,
+body {
+  height: 100%;
+}
+table {
+  border-collapse: collapse;
+  text-align: left;
+  white-space: nowrap;
+}
+table2 {
+  border-collapse: seperate;
+  border-spacing: 0.5mm 0px;
+  text-align: Left;
+  white-space: nowrap;
+}
+
+tr > td {
+  min-width: 300px;
+  width: 300px;
+  text-align: left;
+}
+tr > td + td {
+  text-align: left;
+  min-width: 300px;
+  width: 300px;
+}
+tr > td + td + td {
+  min-width: 300px;
+  width: 300px;
+  text-align: Left;
+}
+
+@font-face {
+  font-family: 'DejaVu Sans';
+  src: url('https://kendo.cdn.telerik.com/2016.2.607/styles/fonts/DejaVu/DejaVuSans.ttf')
+    format('truetype');
+}
+ul {
+  list-style-type: none;
+  text-indent: -0.39em;
+  font-size: 12px;
+}
+ul li::before {
+  content: '\2022 \0020';
+  display: inline-block;
+  font-family: 'DejaVu Sans';
+  font-size: 12px;
+  width: 2.5px;
+  text-indent: -1em;
+}
+ul li ul li:before {
+  content: '\25e6 \0020';
+  display: inline-block;
+  font-family: 'DejaVu Sans';
+  font-size: 12px;
+  width: 2.5px;
+  text-indent: -1em;
+}
+ul li ul li ul li::before {
+  content: '\25FE \0020';
+  display: inline-block;
+  font-family: 'DejaVu Sans';
+  font-size: 6px;
+  vertical-align: 25%;
+  width: 2.5px;
+  text-indent: -1em;
+}
+.app-header {
+  /* height: 65px; */
+  width: 100%;
+  background-color: #d9d9d6;
+}
+.app-logo {
+  display: inline-block;
+  margin: 5px;
+  height: 50px;
+  width: 150px;
+  background-image: url('../images/Innovent_black_color.png');
+  background-size: 150px 50px;
+  background-repeat: no-repeat;
+}
+.app-save-btns {
+  display: inline-block;
+  margin-left: 50px;
+  /* line-height: 50px; */
+  vertical-align: top;
+}
+.app-inline {
+  display: inline-block;
+  margin-left: 75px;
+}
+.input-text-sm {
+  width: 100px;
+}
+
+.app-display-none {
+  display: none;
+}
+
+.app-proj-close {
+  width: 20px;
+  font-size: 22px;
+  margin-right: 2px;
+  margin-left: auto;
+  cursor: pointer;
+}
+.app-header-btn {
+  margin-left: 100px;
+}
+.app-error {
+  color: red;
+}
+.app-input-error {
+  border: 2px solid red;
+}
+.app-msg-success {
+  color: green;
+  text-align: center;
+  border: 1px solid green;
+  margin-top: 10px;
+  background-color: #cec;
+}
+.app-msg-fail {
+  color: red;
+  text-align: center;
+  border: 1px solid red;
+  margin-top: 10px;
+  background-color: rgb(238, 204, 204);
+}
+.app-msg-close {
+  float: right;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.app-tab {
+  display: inline-block;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-top: 5px;
+  border: 1px solid gray;
+  border-bottom: none;
+  border-radius: 3px 3px 0 0;
+  background-color: #dedede;
+  color: gray;
+  cursor: pointer;
+}
+.app-tab-active {
+  background-color: #ffffff;
+  color: #000000;
+}
+.app-loading {
+  position: fixed;
+  background-image: url('../images/loading.svg');
+  background-size: 154px 154px;
+  height: 154px;
+  width: 154px;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.app-input1 {
+  width: 250px;
+}
+.app-input1-disabled {
+  width: 250px;
+  background-color: #dedede;
+  border-color: lightgray;
+}
+
+.circle-container {
+  display: inline-block;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+.circle-btn {
+  margin-left: 25px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(102, 142, 155);
+  position: relative;
+}
+.circle-btn::before {
+  content: '+';
+  position: absolute;
+  display: block;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 14px;
+  left: 2px;
+  z-index: 9;
+}

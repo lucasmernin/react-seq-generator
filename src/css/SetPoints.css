@@ -1,0 +1,41 @@
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+}
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+li {
+  font-family: serif;
+  font-size: 16px;
+}
+/* .Collapsible {
+  background-color: #43a7c8 !important;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+.Collapsible__trigger {
+  display: block;
+  color: white;
+  font-weight: 400;
+  position: relative;
+  padding: 10px;
+}
+.Collapsible__contentInner {
+  background-color: rgb(235, 235, 240);
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+} */
+
+input {
+  width: 80%;
+}

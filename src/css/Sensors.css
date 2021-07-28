@@ -1,0 +1,17 @@
+/* .Collapsible {
+  background-color: #43a7c8 !important;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+.Collapsible__trigger {
+  display: block;
+  color: white;
+  font-weight: 400;
+  position: relative;
+  padding: 10px;
+}
+*/
+.additionalSensors input {
+  width: 5%;
+}
